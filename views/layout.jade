@@ -1,0 +1,18 @@
+//
+   Created by trilo on 5/31/2016.
+
+doctype
+html
+    head
+        title #{title} - My Site
+        link(rel='stylesheet', href='/stylesheets/style.css')
+    body
+        header
+            h1 My Site
+        .container
+            .main-content
+                block content
+            .sidebar
+                block sidebar
+        footer
+            p Running on node with Express, Jade and Stylus
