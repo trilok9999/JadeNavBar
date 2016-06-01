@@ -13,5 +13,8 @@
     "jade": "^1.0.4",
     "stylus": "^0.49.1",
     "nib": "^1.0.4"
+  },
+  "devDependencies": {
+    "cors": "^2.7.1"
   }
 }
